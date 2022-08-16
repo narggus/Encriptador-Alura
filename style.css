@@ -1,0 +1,171 @@
+body{
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Silkscreen', cursive;
+
+	margin: 0;
+	padding: 0;
+    background: rgba(42,122,228,1); 
+}
+
+.principal{
+	margin: auto;
+	width: 1080px;
+	height: 620px;
+	padding: 5px;
+}
+
+.logo{
+	width: 100%;
+	float: left;
+}
+
+.imagen-logo{
+	margin-top: 1%;
+	margin-left: 5%;
+	float: inherit;
+	width: 4em;
+	height: auto;
+}
+
+.titulo{
+	float: inherit;
+	margin-left: 15%;
+    text-align: center;
+    color: white;
+}
+
+.texto{
+	float: left;
+	width: 70%;
+	height: 70%;
+	border-radius: 24px;
+    opacity: 70%;
+}
+
+#escriba{
+    text-align: center;
+	float: left;
+	margin-left: 10%;
+	margin-top: 10%;
+	width: 80%;
+	height: 80%;
+	color: red;
+	font-size: 20px;
+    border: none;
+    border-radius: 24px;
+	outline: none;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Silkscreen', cursive;
+    box-shadow: 10px 10px 5px #000000;
+}
+
+.copiar{
+	float: right;
+	width: 30%;
+	height: auto;
+	border-radius: 24px;
+    opacity: 70%;
+	background: white;
+    box-shadow: 10px 10px 5px #000000;
+}
+
+#persona{
+	margin-top: 20%;
+	width: 100%;
+	height: auto;
+	margin-left: 2%;
+}
+
+#mensaje{
+    text-align: center;
+	margin-left: 7%;
+	margin-right: 5%;
+}
+
+#descripcion{
+    text-align: center;
+	float: left;
+	margin-left: 10%;
+	color: red;
+	width: 80%;
+	height: 60%;
+	border: none;
+	outline: none;
+	font-size: 15px;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Silkscreen', cursive;
+}
+
+#boton-copiar{
+	padding: 24px;
+	width: 80%;
+	height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+	background: aquamarine;
+    font-size: 100%;
+    display: none;
+	font-family: 'DynaPuff', cursive;
+    font-family: 'Silkscreen', cursive;
+    box-shadow: 0 4px 5px #000000;
+    transition: 1s;
+}
+
+#boton-copiar:hover{
+    background: lightslategray;
+    transform: scale(1.1);
+}
+
+.botones{
+	float: left;
+	width: 70%;
+	height: auto;
+	border-radius: 24px;
+}
+
+.letras{
+    text-align: center;
+    color: white;
+}
+
+.letras::first-letter{
+    color: black;
+}
+
+.encriptar{
+	padding: 24px;
+	width: 30%;
+	height: 60%;
+	border-radius: 24px;
+	margin-left: 15%;
+	background: lightblue;
+    font-size: 100%;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Silkscreen', cursive;
+    box-shadow: 0 4px 5px #000000;
+    transition: 1s;
+}
+
+.encriptar:hover{
+    background: springgreen;
+    transform: scale(1.1);
+}
+
+.desencriptar{
+	padding: 24px;
+	width: 30%;
+	height: 60%;
+	border-radius: 24px;
+	margin-left: 10%;
+	background: lightpink;
+    font-size: 100%;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Silkscreen', cursive;
+    box-shadow: 0 4px 5px #000000;
+    transition: 1s;
+}
+
+.desencriptar:hover{
+    background: lightsalmon;
+    transform: scale(1.1);
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&family=Silkscreen&display=swap" rel="stylesheet"> 
+        <title>Encriptador de Texto</title>
+    </head>
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------ -->
+    <body>
+        <div class="principal">
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------ -->
+            <div class="logo">
+                <img class="imagen-logo" src="Imagenes/Alura.png" alt="Logo de Alura">
+                <h1 class="titulo">Encripta - Desencripta</h1>
+            </div>
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------ -->
+            <div class="texto">
+                <input type="text" id="escriba" placeholder="Ingrese el texto aquí">
+            </div>
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------ -->
+            <div class="copiar">
+                <img id="persona" src="Imagenes/Persona.png" alt="Imagen de una persona">
+                <h1 id="mensaje">Ningún mensaje fue encontrado</h1>
+                <textarea id="descripcion" rows="4" cols="80" placeholder="Ingrese el texto que desea desencriptar"></textarea>
+                <button id="boton-copiar" type="button" onclick="copiar()">Copiar</button>
+            </div>
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------ -->
+            <div class="botones">
+                <p class="letras">&#8505 Solo letras minúsculas y sin acentos</p>
+                <button class="encriptar" onclick="encriptar()">Encriptar</button>
+                <button class="desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------ -->
+        </div>
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------ -->
+        <script src="java.js"></script>
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------ -->
+    </body>
+</html>
